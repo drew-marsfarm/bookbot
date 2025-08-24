@@ -12,4 +12,5 @@ if __name__  == "__main__":
     word_count_output = word_count(output)
     count_letters_output = count_letters(output)
     
-    print(f"{word_count_output} words found in the document /n {count_letters_output}")
+    print(f"{word_count_output} words found in the document")
+    print(count_letters_output)
