@@ -11,5 +11,6 @@ def word_count(string):
 if __name__  == "__main__":
     #output = get_book_text("./books/frankenstein.txt")
     with open("./books/frankenstein.txt") as book:
-        output = word_count(book)
+        book_contents = book.read()
+        output = word_count(book_contents)
     print(f"{output} words found in the document")
