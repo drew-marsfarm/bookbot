@@ -24,6 +24,6 @@ def sort_dict(dictionary):
             {"char": char, "num": number}
         )
 
-    sorted_dict = unsorted_dict.sort(reverse=True, key=sort_on)
-    
-    return sorted_dict
+    #sorted_dict = unsorted_dict.sort(reverse=True, key=sort_on)
+    unsorted_dict.sort(reverse=True, key=sort_on)
+    return unsorted_dict
